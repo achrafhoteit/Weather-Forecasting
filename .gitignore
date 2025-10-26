@@ -1,0 +1,42 @@
+# OS and editor junk
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files and scalers
+*.keras
+*.h5
+*.pkl
+*.joblib
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+
+# But keep this one
+!beirut_weather_dataset_6years.csv
+!processed_weather_data_6years_3targets.csv
+
+# Logs and outputs
+logs/
+*.log
+out/
+outputs/
+
+# Environment and credentials
+.env
+*.env
